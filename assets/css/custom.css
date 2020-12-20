@@ -1,0 +1,48 @@
+
+/* main title */
+#main_title {
+    position: relative;
+
+    height: 150px;
+    text-align: center;
+}
+#main_title_text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.section_2020 {
+    display: flex;
+
+    height: 250px;
+
+    margin-bottom: 50px;
+}
+.item_2020 {
+    border: 1px solid black;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.item_middle_2020 {
+    border: 1px solid black;
+    flex-grow: 2;
+    flex-basis: 0;
+
+    margin: 0 25px 0 25px;
+}
+.section_review {
+    display: flex;
+    height:15vw;
+}
+.item_img_2020 {
+    border: 1px solid black;
+    width: 15vw;
+    height: 15vw;
+
+    border-radius: 50%;
+}
+/* footer logo */
+.logo_img {
+    margin: 10px;
+}
