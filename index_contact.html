@@ -9,16 +9,16 @@
   <meta name="description" content="퇴퇴캠프">
   <meta name="keywords" content="퇴퇴캠프">
   <meta name="author" content="퇴퇴캠프">
-      
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175170497-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-175170497-3');
-</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175170497-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-175170497-3');
+  </script>
 
 
   <title>퇴퇴캠프</title>
@@ -30,7 +30,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,6 +43,9 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Custom Css File -->
+  <link href="assets/css/custom.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Bocor - v2.0.0
@@ -57,7 +62,7 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html">해본사람들<span></span></a></h1>
+        <h1 class="text-light"><a href="index.html">퇴퇴캠프<span></span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -65,15 +70,10 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="index_edu.html">퇴퇴캠프란?</a></li>
-          <li><a href="https://blog.naver.com/haebonpeople/222117510077">2020 퇴퇴캠프</a></li>
-          <li><a href="#">2019 퇴퇴캠프</a></li>
-          <li><a href="index_team.html">퇴퇴캠프 후기</a></li>
-          <li class="drop-down"><a href="">퇴퇴캠프 참여기관</a>
+          <li class="drop-down"><a href="">퇴퇴캠프 스토리</a>
             <ul>
-              <li><a href="#">해본사람들</a></li>
-              <li><a href="#">혁신청</a></li>
-              <li><a href="#">어라운드</a></li>
+              <li><a href="2020.html">2020퇴퇴캠프</a></li>
+              <li><a href="2019.html">2019퇴퇴캠프</a></li>
             </ul>
           </li>
 
@@ -82,7 +82,7 @@
       </nav><!-- .nav-menu -->
 
     </div>
-  </header>
+  </header><!-- End Header -->
 
   <main id="main">
 
@@ -92,9 +92,9 @@
 
         <div class="section-title">
           <h2 data-aos="fade-in">Contact</h2>
-          <p data-aos="fade-in">퇴퇴캠프에 관심있는 청년 및 기관은 연락주세요 
-            </p>
-            
+          <p data-aos="fade-in">퇴퇴캠프에 관심있는 청년 및 기관은 연락주세요
+          </p>
+
         </div>
 
         <div class="row">
@@ -106,21 +106,21 @@
                 <div class="info-box" data-aos="fade-up">
                   <i class="bx bx-map"></i>
                   <h3>Our Address</h3>
-                  <p>대전시 중구 문화로 186 3</p>
+                  <p>대전광역시 동구 동대전로 159, 자양분</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
                   <i class="bx bx-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>mail@donepeople</p>
+                  <p>iy0422242495@iycoop.com</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
                   <i class="bx bx-phone-call"></i>
                   <h3>Call Us</h3>
-                  <p>042-587-1213</p>
+                  <p>042-224-2495</p>
                 </div>
               </div>
             </div>
@@ -131,30 +131,34 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-up">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:2" data-msg="Please enter at least 2 chars" />
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                    data-rule="minlen:2" data-msg="Please enter at least 2 chars" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                    data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:2" data-msg="Please enter at least 2 chars of subject" />
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                  data-rule="minlen:2" data-msg="Please enter at least 2 chars of subject" />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                  data-msg="Please write something for us" placeholder="Message"></textarea>
                 <div class="validate"></div>
               </div>
               <div class="mb-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>  
+                <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button>
-                
-                </div>
+
+              </div>
             </form>
           </div>
 
@@ -166,7 +170,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-   <footer id="footer">
+  <footer id="footer">
 
     <div class="footer-top">
 
@@ -176,16 +180,18 @@
           <div class="col-lg-6">
             <h3>퇴 퇴 캠 프</h3>
             <p>행복한 직장생활을 되찾기 위한 직장생활 속 나의 고민해결하기</p>
-            <p>
-              Phone : 042-587-1213
-              </p>
+
           </div>
         </div>
 
+        <!-- 로고 이미지들 -->
+        <div style="margin-top: 35px;">
 
-        <div class="social-links">
-          <a href="#" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#">
+            <img class="logo_img" src="assets/img/logo2.jpg" alt="logo">
+          </a>
+
+
         </div>
 
       </div>
